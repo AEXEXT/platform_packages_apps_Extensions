@@ -347,6 +347,9 @@
     <string name="hardware_keys_double_tap_title">Двойное нажатие</string>
     <string name="hardware_keys_category">Кнопки навигации</string>
     <string name="hardware_keys_disable_title">Отключить аппаратные кнопки навигации</string>
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка "Домой" при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки "Домой" при входящем звонке</string>    
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Подсветка кнопок</string>
     <string name="button_backlight_enable_title">Включить подсветку кнопок</string>
