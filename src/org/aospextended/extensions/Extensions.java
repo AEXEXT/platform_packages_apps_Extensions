@@ -25,6 +25,8 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.SharedPreferences;
+import android.util.Log;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -60,9 +62,18 @@ public class Extensions extends SettingsPreferenceFragment implements
     private static final int MENU_HELP  = 0;
 
     @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);        
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.extensions);
+        setHasOptionsMenu(true);
+        ContentResolver resolver = getActivity().getContentResolver();
     }
+    
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        
+    }    
     
     @Override
     public int getMetricsCategory() {
