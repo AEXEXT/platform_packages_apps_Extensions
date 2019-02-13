@@ -20,17 +20,16 @@
     android:title="@string/navigation_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <org.aospextended.extensions.preference.CardviewPreference
+         <Preference
             android:key="navbar_settings"
             android:fragment="com.android.settings.smartnav.NavigationBarSettings"
             android:icon="@drawable/ic_navigation"
             android:title="@string/navigationbar_settings_title" />
 
-        <org.aospextended.extensions.preference.CardviewPreference
+        <Preference
             android:key="gesture_settings"
             android:icon="@drawable/ic_settings_gestures_omni"
             android:title="@string/gesture_settings_title"
             android:fragment="org.aospextended.extensions.fragments.GestureSettings" />
-
 
 </PreferenceScreen>

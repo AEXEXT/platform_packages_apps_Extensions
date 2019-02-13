@@ -43,17 +43,12 @@
     <string name="colors_title">Цвета</string>
     <!-- Extensions categories -->
     <string name="recents_category">Недавние приложения</string>
-    <string name="recents_category_summary">Настроить вид недавних приложений</string>
+
     <string name="status_bar_category">Строка состояния</string>
-    <string name="status_bar_category_summary">Настроить строку состояния</string>
     <string name="notifications_panel_category">Панель уведомлений</string>
-    <string name="notifications_panel_category_summary">Настройте панель быстрого доступа и уведомлений</string>
     <string name="system_category">Система</string>
-    <string name="system_category_summary">Различные дополнения системы</string>
     <string name="lockscreen_category">Экран блокировки</string>
-    <string name="lockscreen_category_summary">Настроить экран блокировки</string>
     <string name="navigation_category">Навигация</string>
-    <string name="navigation_category_summary">Настроить панель навигации</string>
     <string name="build_tweaks_summary_title">Дополните ваше устройство!</string>
     <string name="system_animations">Системные анимации</string>
     <string name="listview">Список</string>

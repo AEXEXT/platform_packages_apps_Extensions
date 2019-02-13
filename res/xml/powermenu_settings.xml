@@ -71,5 +71,4 @@
             android:title="@string/powermenu_logout"
             android:defaultValue="false" />
 
-
 </PreferenceScreen>

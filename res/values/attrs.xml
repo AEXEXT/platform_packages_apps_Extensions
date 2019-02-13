@@ -14,8 +14,6 @@
      limitations under the License.
 -->
 <resources>
-    <attr name="preferenceBackgroundColor" format="color" />
-
     <!-- Base attributes available to CustomSeekBarPreference. -->
     <declare-styleable name="CustomSeekBarPreference">
         <attr name="interval" format="integer" />
